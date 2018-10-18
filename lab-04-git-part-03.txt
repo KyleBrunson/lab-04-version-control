@@ -1,0 +1,40 @@
+2. nano tempfile.txt
+
+3. ps aux 
+root               701   0.0  0.1  4295216   5340 s000  Ss    6:19PM   0:00.04 login -pf cheese
+cheeseman          693   0.0  0.1  4304968   4736   ??  S     6:18PM   0:00.03 /System/Library/
+
+4. ps aux | grep -i nano
+cheeseman          883   0.0  0.0  4267752    824 s001  S+    6:40PM   0:00.00 grep -i nano
+cheeseman          880   0.0  0.0  4267992   1132 s000  S+    6:40PM   0:00.00 nano tempfile.txt
+cheeseman          796   0.0  0.0  4295640   2280 s002  S+    6:29PM   0:00.65 nano lab-04-git-part-03.txt
+
+5. kill 880
+
+6. Nano closed. It went back to terminal. Received SIGHUP or SIGTERM
+
+7. 
+8. nano hello.sh
+
+9. chmod u+x hello.sh
+
+10. ./hello.sh
+hi there!
+
+11. -bash: ./hello.sh: No such file or directory
+
+12. /Users/cheeseman/./hello.sh
+hi there!
+
+13. cd -
+
+14. /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+15. _=/usr/bin/env
+OLDPWD=/
+
+16. /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/cheeseman
+
+17. hi there!
+
+
